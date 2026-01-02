@@ -1,0 +1,47 @@
+
+table.menu,
+table.menu td {
+    border: 2px solid aquamarine;
+}
+
+table td:hover {
+    background-color: ghostwhite;
+}
+
+h1 {
+   text-align: center;
+   background-color: aquamarine; 
+   border-bottom: 3px solid black;
+   border-top: 3px solid black;
+}
+
+body {
+    font-family: "Indie Flower", cursive;
+    background-image: url("/images/1399041.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body td {
+    text-align: center;
+}
+
+a:hover{
+    text-decoration: darkmagenta;
+}
+
+.menu img {
+    max-width: 100%;
+    height: auto;
+    
+}
+
+table {
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-bottom : 100px; 
+
+}
