@@ -1,22 +1,43 @@
 
 table.menu,
 table.menu td {
-    border: 2px solid aquamarine;
+    border: 2px solid #3fb2fa;
+    background-color: rgba(24, 28, 42, 0.85);
+}
+
+
+
+.practicas {
+    background-color: transparent;
+    /*border: 2px solid black;*/
+}
+
+.practicas:hover {
+    background-color: #112b69;
+
+}
+
+/*table.menu td {
+    background-color: aquamarine;
 }
 
 table td:hover {
     background-color: ghostwhite;
-}
+}*/
 
 h1 {
    text-align: center;
-   background-color: aquamarine; 
-   border-bottom: 3px solid black;
-   border-top: 3px solid black;
+   background-color: rgba(24, 28, 42, 0.85);; 
+   border-bottom: 3px solid #3fb2fa;
+   border-top: 3px solid #3fb2fa;
+   color: #B9E4F1;
+   width: 100%;
 }
 
 body {
     font-family: "Indie Flower", cursive;
+    background-color: #010204;
+    color: #B9E4F1;
     background-image: url("/images/1399041.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -27,8 +48,20 @@ body td {
     text-align: center;
 }
 
-a:hover{
-    text-decoration: darkmagenta;
+.practicas a{
+    color: #B9E4F1;
+    text-decoration: none;
+    display: block;
+    padding: 5px 0;
+    transition: transform 0.15s ease, background-color 0.15s ease, color 0.15s ease;
+}
+
+.practicas a:hover{
+    color: #E38536;
+    text-decoration: underline;
+    /* He añadido está línea (que creo que no hemos dado) porque había puesto un padding superior al de ".practicas a" para darle
+     más visibilidad al hacer hover. Entonces cuando hacía hover la imagen tenía que recalcular el layout y empuja al resto (palabras de la IA)*/
+    transform: scale(1.5);
 }
 
 .menu img {
