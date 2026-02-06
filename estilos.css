@@ -17,13 +17,6 @@ table.menu td {
 
 }
 
-/*table.menu td {
-    background-color: aquamarine;
-}
-
-table td:hover {
-    background-color: ghostwhite;
-}*/
 
 h1 {
    text-align: center;
@@ -59,8 +52,6 @@ body td {
 .practicas a:hover{
     color: #E38536;
     text-decoration: underline;
-    /* He añadido está línea (que creo que no hemos dado) porque había puesto un padding superior al de ".practicas a" para darle
-     más visibilidad al hacer hover. Entonces cuando hacía hover la imagen tenía que recalcular el layout y empuja al resto (palabras de la IA)*/
     transform: scale(1.5);
 }
 
@@ -71,10 +62,6 @@ body td {
 }
 
 table {
-    padding-left: 2%;
-    padding-right: 2%;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    padding: 2%;
     margin-bottom : 100px; 
-
 }
