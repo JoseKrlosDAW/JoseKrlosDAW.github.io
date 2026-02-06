@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica Flex</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <button id="inicio">Inicio</button>
+            <button id="productos">Productos</button>
+            <button id="encargos">Encargos</button>
+            <button id="ubicacion">Ubicación</button>
+        </div>
+        <div class="titulo">
+            <h1>Madalenas<br> El Torico</h1>
+        </div>
+    </header>
+    <div class="cookies" id="container_cookies">
+        <h2>Aviso Veganos/Celiacos</h2>
+        <p>
+            Estimados clientes os informamos que algunos de nuestros productos son aptos para veganos y para celiacos.<br> También aceptamos encargos por si no tuviesemos el producto que desean disponible.
+        </p>
+
+        <!-- En esta parte he copiado el ejemplo de la práctica pasada -->
+
+        <div><a class='button' href='#' onclick="document.getElementById('container_cookies').style.visibility = 'hidden'" >Cerrar</a>
+        </div>
+    </div>
+    <main>
+        <div class="bloque1">
+            <section>
+            <div class="texto">
+                <h2>Sobre nosotros</h2>
+                    <p>
+                    Madalenas El Torico, una joya artesanal situada en la Calle Velázquez, 9, Valencia.<br> Descubrimos Madalenas El Torico, un establecimiento de panadería y repostería tradicional que logra transportar a sus clientes a los pueblos interiores con su atmósfera hogareña y sabor inimitable. Dentro de sus muros, cada pieza de pan y cada dulce es una declaración de amor al oficio.
+                    <br>Amara D. comentaba en un testimonio <span>"Un despacho de panadería y dulces tradicional y artesano similar a los de los pueblos interiores...La dependienta es muy atenta."</span> <br>Y es que Madalenas El Torico no es solo una pastelería, es un viaje a la tradición y la artesanía envuelto en una magnífica variedad de productos horneados.
+                    Un amplia variedad para disfrutar en Madalenas El Torico se puede disfrutar de un abanico de productos que abarca desde galletas, magdalenas, rosquillas hasta saladitos, y todos cuentan con la garantía de un producto artesanal hecho con dedicación y amor. Excelentes críticas coronan su coca de chocolate, sus pastelitos de boniato y los mini susús.
+                    Y qué decir de las magdalenas, un producto estrella que ha dejado enamorados a muchos. Como reseña uno de los clientes <span>"Las magdalenas están deliciosas, siempre que tengo que comprar las compro aquí".</span>
+                    <br>Un trato excepcional, el factor humano es una de las claves del éxito de este negocio. Desde Pili, que uno de los clientes define como un <span>"Amor"</span>, hasta su sobrina Arantxa y el resto del equipo, se preocupan por brindar una atención llena de cariño y cercanía. Así lo refleja otra usuaria: <span>"Calidad y atención. Productos artesanos. Pan elaborado tradicional. Y tanto Pili como sus sobrinas y hija atendiendo con cariño".</span>
+                    Además, se resaltan las medidas de seguridad seguidas en el local. <span>"Se respetan todas las normas de seguridad"</span>, afirma otra cliente, lo que agrega un nivel de confianza extra al elegir Madalenas El Torico.
+                    <br> El Torico es, sin duda, un lugar que presenta la esencia de la pastelería tradicional valencia con un toque sobremanera personal. Su surtido de productos, la calidad de sus ingredientes y la cercanía en el trato al cliente lo convierten en el lugar ideal para disfrutar de lo dulce y lo sabroso de la vida.
+                    </p>
+        </div>
+        <figure>
+            <img src="images/foto3.jpg" alt="Foto de la tienda">
+        </figure>
+    </section>
+    <section class="bloque2">
+        <div class="texto">
+            <h2>Especialidades</h2>
+            <p>En Magdalenas El Torico mantenemos la esencia del horno de siempre: producto recién hecho, recetas familiares y elaboración cuidada. Nuestra especialidad son las magdalenas, suaves y esponjosas, perfectas para desayuno o merienda y disponibles en distintos formatos para llevar. Además, a lo largo del año vamos incorporando elaboraciones según temporada y fechas señaladas, y aceptamos encargos para bandejas, celebraciones o productos concretos (especialmente cuando hay más demanda). El nombre está inspirado en Plaza del Torico, un guiño a nuestras raíces en Teruel.<br>En Magdalenas El Torico cuidamos el horno como se ha hecho siempre: elaboración diaria, receta familiar y un producto pensado para disfrutarlo recién hecho. Nuestra especialidad son las <span>magdalenas artesanas</span>, con un sabor tradicional y una textura esponjosa, ideales para desayuno o merienda y disponibles también en formatos para llevar o en bandejas surtidas. A lo largo del año, y según la época, vamos preparando productos típicos de temporada: en campaña de Reyes hacemos <span>roscón de Reyes</span>, y cuando llega Pascua elaboramos <span>monas de Pascua</span>. Además, mantenemos nuestras raíces con el <span>regañao típico de Teruel</span>, que solemos preparar según disponibilidad o bajo pedido. Si buscas algo concreto para una fecha especial (reuniones, celebraciones o encargos), consúltanos con antelación para confirmar tiempos y cantidades, especialmente en semanas de mucha demanda. También informamos de alérgenos y opciones disponibles en cada momento, para que puedas elegir con tranquilidad.</p>
+        </div>
+        <figure>
+            <img src="images/foto1-2.jpg" alt="Foto del mostrador">
+        </figure>
+    </section>
+    </div>
+    <nav>
+        <ul>
+
+            <li>
+                <a href="#inicio" aria-label="Inicio">
+                    <img src="images/inicio.png" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="#productos" aria-label="Productos">
+                    <img src="images/magdalena.png" alt="">
+                </a>
+            </li>    
+            <li>
+                <a href="#encargos" aria-label="Encargos">
+                    <img src="images/carrito.png" alt="">
+                </a>
+            </li>    
+            <li>
+                <a href="#ubicacion" aria-label="Ubicación">
+                    <img src="images/ubicacion.png" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="#contacto" aria-label="Contacto">
+                    <img src="images/telefono.png" alt="">
+                </a>
+            </li>
+        </ul>
+    </nav>
+    </main>
+    <footer id="contacto">
+        <div class="footer1">
+            <ul>
+                <li>🧺 Encargos: 24 - 48h</li>
+                <li>✅ Bandejas y celebraciones</li>
+                <li>💬 Consulta disponibilidad</li>
+            </ul>
+        </div>
+        <div class="footer2">
+            <p>MADALENAS EL TORICO<br>TODO BUENO TODO RICO</p>
+        </div>
+        <div class="footer3">
+            <ul>
+                <li>
+                    🕗 9:00 - 14:00 · 17:00 - 20:00
+                </li>
+                <li>
+                    <a href="tel:963794918">☎️ <span>963794918</span></a>
+                </li>
+                <li>
+                    <a href="mailto:madalenaseltorico@gmail.com">📩 <span>madalenaseltorico@gmail.com</span></a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer4">
+            <p>⚠️ <span>Alérgenos:</span> consulta en tienda. Posibles trazas de gluten, huevo, leche y frutos secos.</p>
+        </div>
+
+    </footer>
+</body>
+</html>
